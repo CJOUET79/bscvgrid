@@ -1,0 +1,103 @@
+.entete{
+    display: flex;
+    justify-content: center;
+}
+.titre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tof{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.me{
+    width: 90px;
+    height: 90px;
+    border-radius: 60px;
+    margin-top: -25px;
+}
+.adr, .coo, .inf{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: medium;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+}
+.experiences, .atouts, .diplomes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+}
+.exp, .at, .dip{
+    padding-left: 10px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+body{
+    width: 70%;
+    margin: auto;
+    border: solid 1px #355F90;
+}
+.xper{
+    display: flex;
+    flex-direction: column;
+}
+
+.atse, .atsf{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.dip1, .dip2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.fb, .lk{
+    width: 25px;
+    height: 25px;
+}
+.facbo, .linin{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+a, a:hover, a:visited a:link{
+    padding-left: 10px;
+    text-decoration: none;
+    color:#C6D9F1;
+}
+.entete, .tof, .facbo, .linin{
+    background-color: #355F90;
+    color: #C6D9F1;
+}
+.experiences, .atouts, .diplomes{
+    background-color: #C6D9F1;
+    color: #355F90;
+}
+.xper, .at, .atse, .atsf, .dip1, .dip2{
+    color: #355F90;
+}
+
+@media (max-width: 576px) {
+    .adr, .coo, .inf {
+  font-size: 65%;
+}
+}
+
+@media (max-width: 360px) {
+    .adr, .coo, .inf {
+  font-size: 45%;
+}
+}
